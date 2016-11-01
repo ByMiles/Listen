@@ -19,9 +19,8 @@ public class DoublyLinkedList<T> implements Listable<T>{
 	}
 
 	@Override
-	public int insertAt(int index, T data) {
+	public void insertAt(int index, T data) {
 		// TODO Auto-generated method stub
-		return 0;
 	}
 
 	@Override

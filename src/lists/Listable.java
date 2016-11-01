@@ -3,7 +3,7 @@ package lists;
 public interface Listable<T> 
 {
 	public void add(T data);
-	public int insertAt(int index, T data);
+	public void insertAt(int index, T data);
 	public void delete(int index);
 	
 	public boolean isEmpty();
